@@ -7,8 +7,8 @@ from posixpath import split
 
 
 
-x2, x1= input().split()
-y2, y1= input().split()
+x1, x2= input().split()
+y1, y2= input().split()
 print(x1," ",x2," ",y1," ",y2)
 
 
