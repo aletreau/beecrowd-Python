@@ -10,3 +10,9 @@ from posixpath import split
 x2, x1= input().split()
 y2, y1= input().split()
 print(x1," ",x2," ",y1," ",y2)
+
+
+
+D= math.sqrt(((float(x2) - float(x1))*(float(x2) - float(x1))) - ((float(y2)-float(y1)) *(float(y2)-float(y1))))
+
+print("%0.4f" %D)
