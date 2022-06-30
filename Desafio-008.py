@@ -1,3 +1,6 @@
+'''beecrowd | 1020
+Idade em Dias'''
+
 dias=int(input())
 
 print((dias//365),"Ano (s)")
