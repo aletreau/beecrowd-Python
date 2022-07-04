@@ -10,6 +10,7 @@ A, B, C = input().split()
 
 print(A, B, C)
 
+
 print(float(B)**2)
 print(4*float(A))
 print((-4*float(A))*float(B))
